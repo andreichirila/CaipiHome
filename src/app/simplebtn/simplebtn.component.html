@@ -1,0 +1,30 @@
+<div class="ui secondary green segment" (press)="press(btnInfo)" #ref>
+	<div class="ui grid mat-app-background white-back">
+
+		<div class="three wide column">{{ nameBtn }}</div>
+
+		<div class="ten wide column"></div>
+
+		<div class="three wide column">
+			<!--div caipiSimplebtn class="ui toggle checkbox" #ref
+				[infoBtn]="btnInfo">
+				<input type="checkbox">
+				<label></label>
+			</div-->
+			<!--button class="circular ui icon button">
+			  <i class="icon settings"></i>
+			</button-->
+			<md-slide-toggle caipiSimplebtn [infoBtn]="btnInfo" [checked]="checked" (change)="prepareJSON" #ref></md-slide-toggle>
+		</div>
+	</div>
+	<div class="ui dimmer">
+    <div class="content">
+      <div class="center">
+        <h2 class="ui inverted icon header">
+          <i class="heart icon"></i>
+          Dimmed Message!
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>

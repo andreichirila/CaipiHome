@@ -1,0 +1,7 @@
+[{
+	"name": "index",
+	"data-next": "page1"
+},{
+	"name": "page1",
+	"data-next": "index"
+}]

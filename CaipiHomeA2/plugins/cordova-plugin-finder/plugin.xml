@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova-plugin-finder"
+        version="0.0.1">
+
+  <name>Finder</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <js-module src="www/finder.js" name="finder">
+    <clobbers target="finder" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Finder">
+        <param name="android-package" value="com.plugin.Finder"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/com/Finderjni/Finder.java" target-dir="src/com/plugin/"/>
+    <source-file src="src/android/com/Finderjni/FinderJni.java" target-dir="src/com/plugin/" />
+    <source-file src="src/android/libs/armeabi/libfinder-jni.so" target-dir="libs/armeabi/" />
+  </platform>
+
+  <platform name="ios">
+
+    <config-file target="config.xml" parent="/widget">
+      <feature name="Finder">
+        <param name="ios-package" value="Finder" />
+      </feature>
+    </config-file>
+	<source-file src="src/ios/libs/libfinder.a" framework="true" />
+	<header-file src="src/ios/finder.h" target-dir="FinderPlugin"/>
+    <header-file src="src/ios/Finder-ios.h" target-dir="FinderPlugin"/>
+    <source-file src="src/ios/Finder-ios.m" target-dir="FinderPlugin"/>
+
+  </platform>
+</plugin>

@@ -1,0 +1,41 @@
+<sm-modal [title]="title" class="basic" #caipiModal>
+    <modal-content>
+      <div *ngIf="editField == true">
+        <div class="ui fluid icon input">
+          <input #caipiInput type="text" placeholder="Name for a {{elemName}} ..." 
+            [value]="simple" 
+            [(ngModel)]="simple" 
+            (keyup.enter)="editDeleteElement(caipiInput.value)">
+            <i (click)="simple = ''" class="window close outline circular link icon black"></i>
+        </div>
+        <br>
+        <button class="ui positive basic button" (click)="editDeleteElement(caipiInput.value)"> Edit {{simple}} to this page </button>
+      </div>  
+      <div *ngIf="editField == false">
+        <div class="ui fluid icon input">
+          <!--input #caipiDelete type="text" placeholder="We wanna delete this thing ..." 
+            [value]="simple" 
+            [(ngModel)]="simple" 
+            (keyup.enter)="addElement(caipiInput.value)">
+            <i (click)="simple = ''" class="window close outline circular link icon black"></i-->
+       </div>
+        <br>
+        <button class="ui positive basic button" (click)="editDeleteElement(caipiInput.value)"> Delete </button>
+      </div>  
+    </modal-content>
+</sm-modal>
+
+<sm-sidebar class="bottom inverted nine item labeled icon sidebar menu" #bottomSidebar>
+   <a class="item" (click)="showModal(0)">
+        <i class="remove circle icon red"></i>
+        <p class="green_text">Delete Element {{elemName}}</p>
+   </a>
+   <a class="item" (click)="showModal(1)">
+        <i class="edit icon icon yellow"></i>
+        <p class="green_text">Edit Element {{elemName}}</p>
+   </a>
+   <a class="item" (click)="showModal(2)">
+        <i class="remove circle icon red"></i>
+        <p class="green_text">Delete Page {{pageName}}</p>
+   </a>
+</sm-sidebar>

@@ -1,0 +1,38 @@
+<!--sm-dimmer #ref>
+
+</sm-dimmer-->
+
+
+
+<sm-modal title="Adding a {{btnType}} element" class="basic" #caipiModal>
+    <modal-content>
+        <div class="ui fluid icon input">
+          <input #caipiInput type="text" placeholder="Name for a {{btnType}}..."
+            [value]="simple"
+            [(ngModel)]="simple"
+            (keyup.enter)="addElement(caipiInput.value)">
+          <i (click)="simple = ''" class="window close outline circular link icon black"></i>
+        </div>
+        <br>
+        <button class="ui positive basic button" (click)="addElement(caipiInput.value)">Add {{simple}} to this page</button>
+    </modal-content>
+</sm-modal>
+
+<sm-sidebar class="bottom inverted nine item labeled icon sidebar menu" #bottomSidebar>
+   <a class="item" (click)="showModal('btn')">
+        <i class="add circle icon green"></i>
+        <p class="green_text">Add Button Element</p>
+   </a>
+   <a class="item" (click)="showModal('btn-slider')">
+        <i class="add circle icon green"></i>
+        <p class="green_text">Add Button Slider</p>
+   </a>
+   <a class="item" (click)="showModal('text')">
+        <i class="add circle icon green"></i>
+        <p class="green_text">Add Text Element</p>
+   </a>
+   <a class="item" (click)="showModal('page')">
+        <i class="add circle icon green"></i>
+        <p class="green_text">Add a new Page</p>
+   </a>
+</sm-sidebar>

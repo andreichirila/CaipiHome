@@ -1,0 +1,30 @@
+<div class="ui secondary green segment">
+	<div class="ui grid white-back">
+	
+		<div class="four wide column">
+				{{ nameSlider }}
+		</div>
+
+		<div class="nine wide column no-padding">
+			<md-slider  min="1" max="100"
+				[value]='value'
+				[step]='10'
+				[thumb-label]='value'
+				(input)='onSliderChange(ref.value,sliderInfo)' #ref></md-slider>
+			<!--md-slider caipiSliderBtn class="md-slider" type="range" step="10" min="0" max="100" (change)='onSliderChange'></md-slider-->
+			<!--div caipiSliderBtn id="caipiSlider" class="ui green range" [infoSlider]="sliderInfo" (change)="onSliderChange"></div-->
+			<!--input type="range" caipiSliderBtn [infoSlider]="sliderInfo" (input)='onSliderChange' /-->
+			<!--div caipiSliderBtn class="ui range" id="my-range"></div-->
+		</div>
+
+		<div class="three wide column">
+			<md-slide-toggle caipiSimplebtn [infoBtn]='sliderInfo' [checked]="checked"></md-slide-toggle>
+			<!--div class="ui toggle checkbox">
+			  <input type="checkbox" name="public">
+			  <label></label>
+			</div-->
+		</div>
+	</div>
+</div>
+
+<!--[infoSlider]='sliderInfo' [val]='ref.value' -->

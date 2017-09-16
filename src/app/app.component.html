@@ -1,0 +1,53 @@
+<!--app-sliderbtn></app-sliderbtn>
+
+<app-simplebtn></app-simplebtn>
+
+<app-text-elem></app-text-elem-->
+
+<div class="ui active dimmer"
+    [style.visibility]=" (fullPageDimmer == true) ? 'visible' : 'hidden' ">
+  <div class="ui big text loader">Preparing elements</div>
+</div>
+
+<div class="h100"
+  *ngFor="let page of _caipiHomePages; let idx=index; let last = last"
+  (swipeleft)="swipe(idx, $event.type, page['data-next'])"
+  (swiperight)="swipe(idx, $event.type, page['name'])"
+  (swipeup)="swipedUp(page['name'])"
+  [class.visible]="page.visible"
+  [class.hidden]="!page.visible">
+
+  <div class="ui one column grid">
+    <div class="column">
+      <div class="ui raised segment">
+        <a class="ui green ribbon label">You are on the page {{page['name']}}. Swipe to the next page {{page['data-next']}}</a>
+        <h2 class="title-pages">{{page['name']}}</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class='elems-from-{{page.name}} all-elems-page'
+    *ngFor="let elem of _caipiHomeElems; let idx=index">
+
+    <div ngSwitch={{elem?.type}} class="caipiElemsContainer" (press)="press(elem)">
+      <div *ngSwitchCase="'ok'">
+        <h1> NO elements for this page</h1>
+      </div>
+      <div *ngSwitchCase="'btn'">
+        <app-simplebtn [btnInfo]='elem'></app-simplebtn>
+      </div>
+      <div *ngSwitchCase="'btn-slider'">
+        <app-sliderbtn [nameSlider]='elem.name' [sliderInfo]='elem'></app-sliderbtn>
+      </div>
+      <div *ngSwitchCase="'text'">
+        <app-text-elem [nameText]='elem.name' [message]='elem.status'></app-text-elem>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<app-caipihome-dimmer [fromComponent]='showAddDimmer' [infoPage]="thisPage" (newElement)="addNewElement($event)"></app-caipihome-dimmer>
+
+<app-editdelete-dimmer [fromComponent]='showEditDeleteDimmer' [infoPage]="thisPage" [btnType]="btnObj" (editDelElement)="editDeleteElementApp($event)">
+</app-editdelete-dimmer>

@@ -1,0 +1,75 @@
+/*
+CSS for Semantic UI Style Slider taken from:
+http://codepen.io/anon/pen/xZYpGQ
+https://github.com/Semantic-Org/Semantic-UI/issues/1336
+*/
+/*
+input[type="range"] {
+  width: 90%;
+  border:1px solid #ccc;
+  -webkit-appearance: none;
+  padding: 0;
+  height: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  z-index: 999;
+}
+
+input[type="range"]:focus {
+  border-color: #ccc;
+  outline: none !important;
+}
+
+input[type="range"]::-moz-range-track {
+  background: none;
+  border: 0;
+}
+
+input[type="range"]::-moz-focus-outer {
+  border: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #ddd;
+  height: 2rem;
+  width: 2rem;
+  background: #fff;
+  background: #fff linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #fff -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #fff -o-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #fff -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  border-radius: 100%;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15), 0 0 0 1px rgba(34, 36, 38, .15) inset;
+}
+
+input[type="range"]::-moz-range-thumb {
+  border: 1px solid #ddd;
+  height: 2rem;
+  width: 2rem;
+  background: #fff;
+  background: #fff linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #fff -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #fff -o-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #fff -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  border-radius: 100%;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15), 0 0 0 1px rgba(34, 36, 38, .15) inset;
+}
+*/
+
+md-slider {
+  width: 100%;
+}
+
+md-slide-toggle{
+  margin-top:1px;
+  margin-bottom:1px;
+}
+
+.no-padding{
+  padding: 0px 0px 0px 0px !important;
+}
+.white-back{
+  background-color: white !important;
+}

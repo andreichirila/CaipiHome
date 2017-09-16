@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-background-mode": {
+            "PACKAGE_NAME": "cam.caipihome.ac"
+        },
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "cam.caipihome.ac"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "cam.caipihome.ac"
+        },
+        "cordova-plugin-finder": {
+            "PACKAGE_NAME": "cam.caipihome.ac"
+        },
+        "cordova-plugin-mgwclient": {
+            "PACKAGE_NAME": "cam.caipihome.ac"
+        },
+        "cordova-plugin-netstate": {
+            "PACKAGE_NAME": "cam.caipihome.ac"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "cam.caipihome.ac"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "cam.caipihome.ac"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "cam.caipihome.ac"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "cam.caipihome.ac"
+        }
+    }
+}

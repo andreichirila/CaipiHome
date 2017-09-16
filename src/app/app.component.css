@@ -1,0 +1,25 @@
+.h100{
+	height: 100vh;
+}
+
+.scrollbar{
+	overflow-y: auto;
+	webkit-overflow-scrolling: touch;
+	overflow-scrolling:touch;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.title-pages{
+	font-size:18px;
+}
+
+.floated-right{
+	float: right;
+}

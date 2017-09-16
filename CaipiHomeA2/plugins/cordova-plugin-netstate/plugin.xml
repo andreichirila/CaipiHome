@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova-plugin-netstate"
+        version="0.0.1">
+
+  <name>NetState</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <js-module src="www/netstate.js" name="netstate">
+    <clobbers target="netstate" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Netstate">
+        <param name="android-package" value="com.plugin.Netstate"/>
+      </feature>
+    </config-file>
+
+  </platform>
+
+  <platform name="ios">
+
+    <config-file target="config.xml" parent="/widget">
+      <feature name="Netstate">
+        <param name="ios-package" value="Netstate" />
+      </feature>
+    </config-file>
+  </platform>
+</plugin>

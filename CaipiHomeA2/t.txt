@@ -1,0 +1,1000 @@
+ 1002  vi src/index.html 
+ 1003  cd CaipiHomeA2/
+ 1004  ls -la
+ 1005  cordova build android
+ 1006  cordova run android
+ 1007  ls -la
+ 1008  cd scripts/
+ 1009  vi prepareAngular2App.js 
+ 1010  cd ..
+ 1011  ls -la
+ 1012  vi www/index.html 
+ 1013  cd ..
+ 1014  ls -la
+ 1015  vi src/index.html 
+ 1016  ng serve
+ 1017  ls -la
+ 1018  cd CaipiHomeA2/
+ 1019  ls -la
+ 1020  cordova run android
+ 1021  cordova build ios
+ 1022  ls -la
+ 1023  zip -r CaipiHome.zip *
+ 1024  ls -la
+ 1025  s -la
+ 1026  cd CaipiHomeA2/
+ 1027  ls -la
+ 1028  cd www/
+ 1029  vi index.html 
+ 1030  ls -la
+ 1031  cd Angular2/CaipiHome
+ 1032  ls -la
+ 1033  ng serve
+ 1034  cd CaipiHomeA2/
+ 1035  ls -la
+ 1036  cordova build android
+ 1037  cat /proc/meminfo 
+ 1038  cat /proc/cpuinfo 
+ 1039  ls -la
+ 1040  cd ..
+ 1041  ls -la
+ 1042  cd src/
+ 1043  ls -la
+ 1044  vi index.html 
+ 1045  cd ..
+ 1046  ng serve
+ 1047  ls -la
+ 1048  cd ..
+ 1049  ls -la
+ 1050  cd CaipiHome
+ 1051  ls -la
+ 1052  ng serve
+ 1053  cd CaipiHomeA2/
+ 1054  ls -la
+ 1055  cordova build android
+ 1056  cordova run android
+ 1057  cd ..
+ 1058  cd CaipiHomeA2/
+ 1059  ls -la
+ 1060  cd platforms/
+ 1061  ls -la
+ 1062  cd ..
+ 1063  cordova add platform browser
+ 1064  cordova platform add browser
+ 1065  cordova run browser
+ 1066  ls -la
+ 1067  cd www/
+ 1068  ls -la
+ 1069  scp -r ../../../CaipiHome/src/extern/ ./
+ 1070  ls -la
+ 1071  cd extern/
+ 1072  ls -la
+ 1073  cd ../../
+ 1074  cd www/
+ 1075  cd ../
+ 1076  ls -la
+ 1077  cd ..
+ 1078  ls -la
+ 1079  cd CaipiHomeA2/
+ 1080  ls -la
+ 1081  scp -r ../src/extern/ ./
+ 1082  ls -la
+ 1083  cd  www/
+ 1084  cd ..
+ 1085  ls -la
+ 1086  cd ..
+ 1087  sl -la
+ 1088  ls -la
+ 1089  cd src/
+ 1090  ls -la
+ 1091  cd ..
+ 1092  ls -la
+ 1093  cd src/
+ 1094  ls -la
+ 1095  cd ..
+ 1096  scp src/extern/ ./
+ 1097  sudo scp src/extern/ ./
+ 1098  04071987
+ 1099  sudo scp src/extern/ ./
+ 1100  ls -lka
+ 1101  cd src/
+ 1102  ls -la
+ 1103  cd ..
+ 1104  scp -r src/extern/ ./
+ 1105  cd CaipiHomeA2/
+ 1106  ls -lka
+ 1107  ls -la
+ 1108  cd www/
+ 1109  ls -la
+ 1110  rm -r extern/
+ 1111  ls -la
+ 1112  cd ..
+ 1113  ls -la
+ 1114  cordova build browser
+ 1115  cordova run browser
+ 1116  ls -la
+ 1117  cd www/
+ 1118  vi index.html 
+ 1119  cd ../../
+ 1120  ls -la
+ 1121  cd src/
+ 1122  ls -la
+ 1123  vi index.html 
+ 1124  cd ..
+ 1125  ng serve
+ 1126  ls -la
+ 1127  cd src/
+ 1128  ls -la
+ 1129  vi index.html 
+ 1130  cd ..
+ 1131  ng serve
+ 1132  ls -la
+ 1133  cd src/
+ 1134  ls -la
+ 1135  cd ..
+ 1136  ls -la
+ 1137  cd CaipiHomeA2/
+ 1138  ls -la
+ 1139  scp extern/ www/
+ 1140  scp -r extern/ www/
+ 1141  cd www/
+ 1142  ls -la
+ 1143  cd ..
+ 1144  cordova run android
+ 1145  ls -la
+ 1146  cd scripts/
+ 1147  ls -la
+ 1148  vi prepareAngular2App.js 
+ 1149  ls -la
+ 1150  cd ..
+ 1151  cd /..
+ 1152  ls -la
+ 1153  cd home/torpila/Angular2/
+ 1154  ls -la
+ 1155  cd CaipiHome
+ 1156  ls -la
+ 1157  cd CaipiHomeA2/
+ 1158  ls -la
+ 1159  ng build
+ 1160  cordova build broswer
+ 1161  cordova build browser
+ 1162  cordova run browser
+ 1163  cordova run android
+ 1164  cd ../
+ 1165  ls -la
+ 1166  cd src/
+ 1167  cd app/
+ 1168  ls -la
+ 1169  cd ..
+ 1170  ls -la
+ 1171  cd ..
+ 1172  ls -la
+ 1173  ng serve
+ 1174  cd CaipiHomeA2/
+ 1175  ls -la
+ 1176  ng serve
+ 1177  ls -la
+ 1178  cd ..
+ 1179  ng serve
+ 1180  cd CaipiHomeA2/
+ 1181  ls -la
+ 1182  cordova run android
+ 1183  ng serve
+ 1184  cd ..
+ 1185  ls -la
+ 1186  npm install --save @angular/material
+ 1187  npm install --save hammerjs 
+ 1188  npm install --save-dev @types/hammerjs
+ 1189  ng serve
+ 1190  ng build
+ 1191  ng serve
+ 1192  cd CaipiHomeA2/
+ 1193  ls -la
+ 1194  cordova run andorid
+ 1195  cordova run android
+ 1196  cd ..
+ 1197  ng serve
+ 1198  cd ..
+ 1199  cd ../../
+ 1200  ls -la
+ 1201  cd CordovaTestProjekt
+ 1202  mkdir CordovaTestProjekt
+ 1203  cd CordovaTestProjekt/
+ 1204  cordova create Test1
+ 1205  ls -la
+ 1206  cd Test1/
+ 1207  ls -la
+ 1208  cd www/
+ 1209  ls -la
+ 1210  vi index.html 
+ 1211  cd CaipiHomeA2/
+ 1212  ls -la
+ 1213  cd www/
+ 1214  ls -la
+ 1215  vi index
+ 1216  vi index.html 
+ 1217  cd ..
+ 1218  ls -la
+ 1219  cd platforms/
+ 1220  ls -la
+ 1221  cd android/
+ 1222  ls -la
+ 1223  cd src/
+ 1224  ls -la
+ 1225  cd ..
+ 1226  ls -la
+ 1227  cd build/
+ 1228  ls -la
+ 1229  cd ..
+ 1230  ls -la
+ 1231  cd libs/
+ 1232  ls -la
+ 1233  cd ..
+ 1234  ls -la
+ 1235  cd res/
+ 1236  ls -la
+ 1237  cd ..
+ 1238  ls -la
+ 1239  cd ..
+ 1240  ls -la
+ 1241  cd ..
+ 1242  ls -la
+ 1243  cd www/
+ 1244  ls -la
+ 1245  cd ..
+ 1246  cd ../
+ 1247  cd ..
+ 1248  ls -la
+ 1249  cd CaipiHome
+ 1250  ls -la
+ 1251  cd src/extern/
+ 1252  cd ../..
+ 1253  cd 
+ 1254  cd /home/torpila/
+ 1255  ls -la
+ 1256  cd Angular2/
+ 1257  cd CaipiHome
+ 1258  ls -la
+ 1259  cd src/
+ 1260  cd ..
+ 1261  cd CaipiHomeA2/
+ 1262  cd www
+ 1263  ls -la
+ 1264  cd scripts/
+ 1265  ls -la
+ 1266  vi prepareAngular2App.js 
+ 1267  ng --help
+ 1268  ls -la
+ 1269  cd ..
+ 1270  cd ww
+ 1271  ls -la
+ 1272  cd www/
+ 1273  ls -la
+ 1274  cd extern/
+ 1275  ls -la
+ 1276  cd ..
+ 1277  ls -la
+ 1278  cd ..
+ 1279  cd scripts/
+ 1280  ls -la
+ 1281  vi prepareAngular2App.js 
+ 1282  cd ..
+ 1283  ls -la
+ 1284  cd ../
+ 1285  ls -l
+ 1286  cd src/
+ 1287  ls 
+ 1288  ls -la
+ 1289  cd app/
+ 1290  ls -la
+ 1291  cd ../../
+ 1292  ls -la
+ 1293  cd CaipiHomeA2/
+ 1294  cd scripts/
+ 1295  ls -la
+ 1296  vi prepareAngular2App.js 
+ 1297  cd ..
+ 1298  cordova run browser
+ 1299  ls -la
+ 1300  cd scripts/
+ 1301  ls -la
+ 1302  vi prepareAngular2App.js 
+ 1303  cd ..
+ 1304  cordova run browser
+ 1305  cd scripts/
+ 1306  vi prepareAngular2App.js 
+ 1307  cd ..
+ 1308  cordova run browser
+ 1309  ls -la
+ 1310  cd www/
+ 1311  ls -la
+ 1312  cd ..
+ 1313  ls -la
+ 1314  cd scripts/
+ 1315  vi prepareAngular2App.js 
+ 1316  ls -la
+ 1317  cd ..
+ 1318  ls -la
+ 1319  cd www/
+ 1320  ls -la
+ 1321  cd ..
+ 1322  cd scripts/
+ 1323  vi prepareAngular2App.js 
+ 1324  cd ..
+ 1325  cd scripts/
+ 1326  ls -la
+ 1327  vi prepareAngular2App.js 
+ 1328  cd ..
+ 1329  cordova run browser
+ 1330  ls -la
+ 1331  rm allPages.json elemsThisPage.json 
+ 1332  ls -la
+ 1333  cd www/
+ 1334  ls -la
+ 1335  cd ..
+ 1336  ls -la
+ 1337  cd ..
+ 1338  cd src/
+ 1339  cd app/
+ 1340  ls -la
+ 1341  cd app-services/
+ 1342  cd ../../../
+ 1343  ls -la
+ 1344  cd CaipiHomeA2/
+ 1345  ls -la
+ 1346  cd scripts/
+ 1347  vi prepareAngular2App.js 
+ 1348  cd ..
+ 1349  cordova run browser
+ 1350  cd scripts/
+ 1351  ls -la
+ 1352  vi prepareAngular2App.js 
+ 1353  cd ..
+ 1354  cordova run browser
+ 1355  ls -la
+ 1356  cordova run android
+ 1357  cd ..
+ 1358  ls -la
+ 1359  cd dist/
+ 1360  ls -la
+ 1361  cd ..
+ 1362  vi index.html
+ 1363  ls -la
+ 1364  vi dist/index.html 
+ 1365  ssh 192.168.7.142 -lroot
+ 1366  ls -la
+ 1367  cd CaipiHomeA2/
+ 1368  ls -la
+ 1369  cordova build ios
+ 1370  cd platforms/
+ 1371  ls -la
+ 1372  cd ios/
+ 1373  ls -la
+ 1374  cd CaipiHome
+ 1375  ls -la
+ 1376  cd ..
+ 1377  ls -la
+ 1378  cd ..
+ 1379  ls -la
+ 1380  cd ..
+ 1381  ls -la
+ 1382  scp -r * root@192.168.7.164:~/DEVEL/CaipiHome/.
+ 1383  ssh-keygen -f "/home/torpila/.ssh/known_hosts" -R 192.168.7.164
+ 1384  scp -r * root@192.168.7.164:~/DEVEL/CaipiHome/.
+ 1385  sudo scp -r * root@192.168.7.164:~/DEVEL/CaipiHome/.
+ 1386  sudo scp -r * devel@192.168.7.164:~/DEVEL/CaipiHome/.
+ 1387  rm CaipiHome.zip 
+ 1388  sudo scp -r * devel@192.168.7.164:~/DEVEL/CaipiHome/.
+ 1389  cordova build ios
+ 1390  sudo scp -r * devel@192.168.7.164:~/DEVEL/CaipiHome/.
+ 1391  ls -la
+ 1392  vi buildIOS.sh
+ 1393  ls -la
+ 1394  vi buildIOS.sh
+ 1395  chmod 774 buildIOS.sh 
+ 1396  ls -la
+ 1397  ./buildIOS.sh 
+ 1398  ls -la
+ 1399  cd ..
+ 1400  cordova build ios
+ 1401  ls -la
+ 1402  cd CaipiHomeA2/
+ 1403  cordova build ios
+ 1404  #
+ 1405  cd Angular2/
+ 1406  ls -la
+ 1407  cd CaipiHome
+ 1408  ls -la
+ 1409  ng serve
+ 1410  npm start
+ 1411  cd CaipiHomeA2/
+ 1412  ls -la
+ 1413  ./buildIOS.sh 
+ 1414  mkdir www
+ 1415  ./buildIOS.sh 
+ 1416  cd ..
+ 1417  ng generate --help
+ 1418  ng generate directive --help
+ 1419  ng generate directive simplebtn
+ 1420  ls -la
+ 1421  cd src/
+ 1422  cd app/
+ 1423  ls -la
+ 1424  cp simplebtn.directive.spec.ts app-directives/.
+ 1425  cp simplebtn.directive.ts app-directives/.
+ 1426  ls -la
+ 1427  ldIOS.sh
+ 1428  chmod 774 buildIOS.sh 
+ 1429  ls -la
+ 1430  ./buildIOS.sh 
+ 1431  ls -la
+ 1432  cd ..
+ 1433  cordova build ios
+ 1434  ls -la
+ 1435  cd CaipiHomeA2/
+ 1436  cordova build ios
+ 1437  #
+ 1438  cd Angular2/
+ 1439  ls -la
+ 1440  cd CaipiHome
+ 1441  ls -la
+ 1442  ng serve
+ 1443  npm start
+ 1444  cd ../..
+ 1445  npm install material-design-lite --save
+ 1446  cp node_modules/material-design-lite/material.min.css src/extern/.
+ 1447  cp node_modules/material-design-lite/material.min.css src/extern/css/.
+ 1448  cp node_modules/material-design-lite/material.min.js src/extern/js/.
+ 1449  cd CaipiHomeA2/
+ 1450  ls -la
+ 1451  ./buildIOS.sh 
+ 1452  cd ..
+ 1453  ls -la
+ 1454  cd Angular2/
+ 1455  ls -la
+ 1456  git clone https://github.com/AndrewKovalenko/swipe-toggle-switch.git
+ 1457  cd swipe-toggle-switch/
+ 1458  npm i
+ 1459  webpack
+ 1460  ls -la
+ 1461  cd example/
+ 1462  ls -la
+ 1463  npm start
+ 1464  cd Angular2/CaipiHome
+ 1465  ls -la
+ 1466  ng serve
+ 1467  npm start
+ 1468  tsd install jquery --save
+ 1469  typings install dt~jquery --global --save
+ 1470  npm install jquery --save
+ 1471  npm install -D @types/jquery
+ 1472  npm install tyleryasaka/semantic-ui-range --save
+ 1473  bower install tyleryasaka/semantic-ui-range --save
+ 1474  npm install swipe-toggle-switch
+ 1475  cd /FS01/HOMES/ac/
+ 1476  ls -la
+ 1477  history | grep "mount"
+ 1478  history | grep "scp"
+ 1479  history | grep "192.168.7.23"
+ 1480  cd
+ 1481  history | grep "192.168.7.23"
+ 1482  ssh root@192.168.7.23
+ 1483  sudo mount root@192.168.7.23:/FS01/HOMES/ac/ /FS01/HOMES/ac/
+ 1484  sudo mount devel@192.168.7.23:/FS01/HOMES/ac/ /FS01/HOMES/ac/
+ 1485  sudo mount root@192.168.7.23:/FS01/HOMES/ac/ /FS01/HOMES/ac/
+ 1486  mount root@192.168.7.23:/FS01/HOMES/ac/ /FS01/HOMES/ac/
+ 1487  sudo mount root@192.168.7.23:/FS01/HOMES/ac/ /FS01/HOMES/ac/
+ 1488  ssh 192.168.7.142 -lroot
+ 1489  ssh h2525194.stratoserver.net
+ 1490  ssh h2525194.stratoserver.net -lroot
+ 1491  sudo mount 192.168.7.23:/FS01/HOMES/ac/ /FS01/HOMES/ac/
+ 1492  ssh 192.168.7.70
+ 1493  ssh 192.168.7.70 -lroot
+ 1494  ssh 192.168.7.149 -lroot
+ 1495  clear
+ 1496  ssh 192.168.7.149 -lroot
+ 1497  ssh root@192.168.7.23
+ 1498  cd /FS01/HOMES/ac/Cameronet/HTMLOnlyCameronetWeb/main/
+ 1499  ls -la
+ 1500  scp -r * web@192.168.7.22:/var/www/www/.
+ 1501  ls -la
+ 1502  scp -r * web@192.168.7.22:/var/www/www/.
+ 1503  #
+ 1504  scp -r * web@192.168.7.22:/var/www/www/.
+ 1505  exit
+ 1506  ssh h2525194.stratoserver.net -lroot
+ 1507  ssh 192.168.7.26 -lroot
+ 1508  cd ..
+ 1509  ls -la
+ 1510  npm install ng-semantic --save
+ 1511  bower install tyleryasaka/semantic-ui-range --save
+ 1512  npm start
+ 1513  ifconfig 
+ 1514  ssh 192.168.7.143 .lroot
+ 1515  ssh 192.168.7.143 -lroot
+ 1516  ssh 192.168.7.22 -lroot
+ 1517  ssh-keygen -f "/home/torpila/.ssh/known_hosts" -R 192.168.7.22
+ 1518  ssh 192.168.7.22 -lroot
+ 1519  ssh 192.168.7.22 -lweb
+ 1520  #
+ 1521  c
+ 1522  cd /FS01/HOMES/ac/
+ 1523  ls -la
+ 1524  cd Cameronet/
+ 1525  ls -la
+ 1526  cd HTMLOnlyCameronetWeb/
+ 1527  ls -la
+ 1528  cd main/
+ 1529  ls -la
+ 1530  scp -r * root@h2525194.stratoserver.net:/private-backup/CameronetHTMLOfficial/.
+ 1531  ls -la
+ 1532  ssh 192.168.7.22 -lroot
+ 1533  ssh 192.168.7.22 -lweb
+ 1534  cd Angular2/CaipiHome
+ 1535  ls -la
+ 1536  npm start
+ 1537  npm install --save rangeslider.js
+ 1538  npm start
+ 1539  npm install tsd -g
+ 1540  sudo npm install tsd -g
+ 1541  npm start
+ 1542  clear
+ 1543  npm start
+ 1544  npm install --save rangeslider.js
+ 1545  cd CaipiHomeA2/
+ 1546  ls -la
+ 1547  cordova run android
+ 1548  ./buildIOS.sh
+ 1549  ls -la
+ 1550  mkdir www
+ 1551  ls -la
+ 1552  ./buildIOS.sh 
+ 1553  vi buildIOS.sh 
+ 1554  ./buildIOS.sh 
+ 1555  ls -la
+ 1556  vi buildIOS.sh 
+ 1557  sudo scp -r * devel@192.168.7.124:~/DEVEL/CaipiHome/.
+ 1558  vi buildIOS.sh 
+ 1559  ./buildIOS.sh 
+ 1560  cd ..
+ 1561  npm install nouislider --save
+ 1562  ls -la
+ 1563  npm install @types/noUiSlider --save
+ 1564  npm install @types/nouislider --save
+ 1565  ls -la
+ 1566  cp node_modules/nouislider/distribute/nouislider.min.js src/extern/js/.
+ 1567  cp node_modules/nouislider/distribute/nouislider.min.css src/extern/css/.
+ 1568  cp node_modules/rangeslider.js/dist/rangeslider.js src/extern/js/.
+ 1569  cp node_modules/rangeslider.js/dist/rangeslider.css src/extern/css/.
+ 1570  cd CaipiHomeA2/
+ 1571  ls -la
+ 1572  ./buildIOS.sh 
+ 1573  npm install tsd -g
+ 1574  ./buildIOS.sh 
+ 1575  ls -la
+ 1576  cordova run android
+ 1577  ./buildIOS.sh 
+ 1578  cordova run android
+ 1579  cd ..
+ 1580  ls -la
+ 1581  rm -r bower_components/
+ 1582  ls -la
+ 1583  scp -r * root@h2525194.stratoserver.net:/private-backup/Angular2/Abschlussprojekt/CaipiHome/.
+ 1584  history
+ 1585  ssh 192.168.7.153 -lroot
+ 1586  ssh 192.168.7.113 -lroot
+ 1587  cd CaipiHomeA2/
+ 1588  ls -la
+ 1589  vi buildIOS.sh 
+ 1590  cordova run android
+ 1591  ls -la
+ 1592  cordova run android
+ 1593  cordova build android
+ 1594  vi config.xml 
+ 1595  cd scripts/
+ 1596  vi prepareAngular2App.js 
+ 1597  cd ..
+ 1598  cordova build android
+ 1599  cd ..
+ 1600  ng build
+ 1601  cd CaipiHomeA2/
+ 1602  vi scripts/prepareAngular2App.js 
+ 1603  cd ..
+ 1604  cordova run android
+ 1605  mkdir www
+ 1606  cordova run android
+ 1607  rm www/
+ 1608  sudo rm -r www/
+ 1609  cd CaipiHomeA2/
+ 1610  cordova run android
+ 1611  ./buildIOS.sh 
+ 1612  cd platforms/android/assets/
+ 1613  ls -la
+ 1614  cd www/
+ 1615  ls -la
+ 1616  cd dummyJSON/
+ 1617  ls -la
+ 1618  cd ..
+ 1619  ls -la
+ 1620  cd ../../
+ 1621  ls -la
+ 1622  cd res/
+ 1623  ls -la
+ 1624  cd ../../../
+ 1625  ls -la
+ 1626  sudo apt-get install imagemagick
+ 1627  sudo npm install cordova-icon -g
+ 1628  ls 
+ 1629  ls -la
+ 1630  mv CaipiHome.png CaipiHome-android.png 
+ 1631  ls -la
+ 1632  cordova-icon 
+ 1633  mv CaipiHome-android.png icon.png
+ 1634  cordova-icon 
+ 1635  ls -la
+ 1636  cd resources/
+ 1637  ls -la
+ 1638  cd android/
+ 1639  ls -la
+ 1640  cd icon/
+ 1641  ls -la
+ 1642  cd ../../../
+ 1643  vi config.xml 
+ 1644  sudo npm install cordova-splash -g
+ 1645  cordova-splash 
+ 1646  cp icon.png splash.png
+ 1647  cordova-splash 
+ 1648  cordova run android
+ 1649  ./buildIOS.sh 
+ 1650  cd ..
+ 1651  ls -la
+ 1652  cd CaipiHome/CaipiHomeA2/
+ 1653  ls -la
+ 1654  cordova platform remove ios
+ 1655  cordova platform add ios
+ 1656  ./buildIOS.sh 
+ 1657  cordova run android
+ 1658  mkdir www
+ 1659  cordova run android
+ 1660  mkdir www
+ 1661  cordova run android
+ 1662  ./buildIOS.sh 
+ 1663  ls -la
+ 1664  cd Angular2/CaipiHome
+ 1665  ls -la
+ 1666  npm start
+ 1667  npm update --save
+ 1668  npm start
+ 1669  ng build
+ 1670  ng version
+ 1671  ng build
+ 1672  tsc -v
+ 1673  npm uninstall typescript -g
+ 1674  sudo npm uninstall typescript -g
+ 1675  tsc -v
+ 1676  npm install -g typescript@rc
+ 1677  sudo npm install -g typescript@rc
+ 1678  tsc -v
+ 1679  ng build
+ 1680  npm install
+ 1681  ng build
+ 1682  npm build
+ 1683  npm start
+ 1684  ls -la
+ 1685  ifconfig 
+ 1686  ls -la
+ 1687  cd /tmp/
+ 1688  ls -la
+ 1689  ssh 192.168.7.23 -lroot
+ 1690  #
+ 1691  cd 
+ 1692  cd Dokumente/
+ 1693  ls -la
+ 1694  cd Elementordner/
+ 1695  ls -la
+ 1696  scp -r * root@192.168.7.113:/app/Kickstarter/elements/.
+ 1697  scp -r * root@192.168.7.113:/app/KickStarter/elements/.
+ 1698  cd /tmp/
+ 1699  ls -la
+ 1700  cd KickStarter-clean-cli-lemonboard/
+ 1701  ls -la
+ 1702  cp libusb-1.0.9/libusb/.libs/libusb-1.0.so* /usr/lib/
+ 1703  sudo cp libusb-1.0.9/libusb/.libs/libusb-1.0.so* /usr/lib/
+ 1704  cd cprogs/
+ 1705  ls -la
+ 1706  ./INSTALL.sh 
+ 1707  sudo ./INSTALL.sh 
+ 1708  ls -la
+ 1709  cd output/
+ 1710  ls
+ 1711  ls -la
+ 1712  cd ..
+ 1713  ls -la
+ 1714  cd  ..
+ 1715  ls -la
+ 1716  cd config/
+ 1717  ls -la
+ 1718  vi script.conf 
+ 1719  ls -la
+ 1720  cd ../
+ 1721  ls -la
+ 1722  vi INSTALL.txt 
+ 1723  cd exec/
+ 1724  LS -LA
+ 1725  ls -la
+ 1726  cd ..
+ 1727  ls -la
+ 1728  cd cprogs/
+ 1729  ls -la
+ 1730  ./INSTALL.sh 
+ 1731  ssh 192.168.7.153 -lroot
+ 1732  ssh 192.168.7.113 -lroot
+ 1733  ssh 192.168.7.113 -root
+ 1734  ssh 192.168.7.113 -lroot
+ 1735  cd CaipiHomeA2/
+ 1736  ls -la
+ 1737  cordova run android
+ 1738  cd ..
+ 1739  npm install ng2-toasty --save
+ 1740  ls -la
+ 1741  cd 
+ 1742  cd Angular2/CaipiHome
+ 1743  ls -la
+ 1744  ng start
+ 1745  npm start
+ 1746  ifconfig 
+ 1747  npm start
+ 1748  ls -la
+ 1749  npm start
+ 1750  cd CaipiHomeA2/
+ 1751  cordova run android
+ 1752  cd ..
+ 1753  npm start
+ 1754  cd tmp/
+ 1755  ls -la
+ 1756  cd 
+ 1757  cd Dokumente/
+ 1758  ls
+ 1759  cd Elementordner/
+ 1760  ls -la
+ 1761  cd btn
+ 1762  ls -la
+ 1763  cd ..
+ 1764  ls -la
+ 1765  cd Elementordner/
+ 1766  cd btn-slider/
+ 1767  ls -la
+ 1768  cd ..
+ 1769  ls -la
+ 1770  scp -r * root@192.168.7.113:/app/KickStarter/elements/index/.
+ 1771  cd 
+ 1772  ls -la
+ 1773  ls 
+ 1774  la
+ 1775  ssh 192.168.7.113 /lroot
+ 1776  ssh 192.168.7.113 -lroot
+ 1777  cd Angular2/CaipiHome
+ 1778  ls -la
+ 1779  npm install semantic-ui
+ 1780  cd semantic/
+ 1781  gulp build
+ 1782  cd 
+ 1783  cd /FS01/HOMES/ac/
+ 1784  ls -la
+ 1785  history | grep "mount"
+ 1786  sudo mount root@192.168.7.23:/FS01/HOMES/ac/ /FS01/HOMES/ac/
+ 1787  sudo mount devel@192.168.7.23:/FS01/HOMES/ac/ /FS01/HOMES/ac/
+ 1788  sudo mount 192.168.7.23:/FS01/HOMES/ac/ /FS01/HOMES/ac/
+ 1789  ls -la
+ 1790  cd ..
+ 1791  cd ac/
+ 1792  ls -la
+ 1793  cd Projekte_Kunden/
+ 1794  ls -la
+ 1795  cd Oventrop/
+ 1796  ls -la
+ 1797  cd SynetCRWebApp/
+ 1798  ls -la
+ 1799  cd ..
+ 1800  ls -la
+ 1801  cd SynetCR
+ 1802  ls -la
+ 1803  cd SynetWebApi
+ 1804  npm .
+ 1805  ls -la
+ 1806  vi README.md 
+ 1807  node .
+ 1808  vi ./buildIOS.sh 
+ 1809  ./buildIOS.sh 
+ 1810  cd ..
+ 1811  npm build
+ 1812  history
+ 1813  npm start
+ 1814  ls -la
+ 1815  npm start
+ 1816  cd ..
+ 1817  cd Angular2/CaipiHome
+ 1818  ls -la
+ 1819  cd CaipiHomeA2/
+ 1820  cordova run android
+ 1821  cordova run android --target 330019c09663a3ff --verbose
+ 1822  cordova platform remove android
+ 1823  cordova platform add android
+ 1824  cordova run android
+ 1825  ./buildIOS.sh 
+ 1826  cordova run android
+ 1827  ./buildIOS.sh 
+ 1828  ls -la
+ 1829  cd ..
+ 1830  ls -la
+ 1831  cd CaipiHomeA2/
+ 1832  ls -la
+ 1833  cd ..
+ 1834  npm start
+ 1835  cd Angular2/
+ 1836  cd CaipiHome
+ 1837  ls -la
+ 1838  npm start
+ 1839  this.thisPage = this._caipiHomePages[currentIndex+1].name;
+ 1840  npm install --save @ngtools/webpack@1.2.4
+ 1841  npm start
+ 1842  cd Angular2/CaipiHome
+ 1843  ls -la
+ 1844  npm start
+ 1845  ls -la
+ 1846  cd CaipiHomeA2/
+ 1847  ls -la
+ 1848  vi buildIOS.sh 
+ 1849  ifconfig 
+ 1850  cd platforms/
+ 1851  ls -la
+ 1852  cd ios/
+ 1853  ls
+ 1854  cd www/
+ 1855  ls
+ 1856  cd ..
+ 1857  ls -la
+ 1858  cd platform_www/
+ 1859  ls
+ 1860  cd ..
+ 1861  ls -la
+ 1862  cd CaipiHome
+ 1863  ls -la
+ 1864  cd Plugins/
+ 1865  ls -la
+ 1866  vi README 
+ 1867  ls -la
+ 1868  cd ../../
+ 1869  ls -la
+ 1870  cd www/
+ 1871  ls -la
+ 1872  cd extern/
+ 1873  ls -la
+ 1874  cd js/
+ 1875  ls -la
+ 1876  cd ../../../
+ 1877  cd ../../
+ 1878  cd ..
+ 1879  npm start
+ 1880  npm i -s ng2-storage
+ 1881  npm install --save ng2-webstorage
+ 1882  npm start
+ 1883  ssh devel@192.168.7.135
+ 1884  ssh-keygen -f "/home/torpila/.ssh/known_hosts" -R 192.168.7.135
+ 1885  ssh devel@192.168.7.135
+ 1886  cd Angular2/CaipiHome/CaipiHomeA2/
+ 1887  ls -la
+ 1888  ls
+ 1889  cordova plugin add cordova-plugin-console
+ 1890  cordova plugin add cordova-plugin-network-information
+ 1891  cd ..
+ 1892  ls
+ 1893  cd ..
+ 1894  ls
+ 1895  cd cordova-plugin/
+ 1896  ls
+ 1897  cd ..
+ 1898  ls
+ 1899  cd CaipiHome
+ 1900  ls
+ 1901  cd CaipiHomeA2
+ 1902  ls
+ 1903  cordova plugin add ../../cordova-plugin/cordova-plugin-netstate
+ 1904  cordova plugin add ../../cordova-plugin/cordova-plugin-background-mode-master
+ 1905  cordova plugin add ../../cordova-plugin/cordova-plugin-badge-master/
+ 1906  cordova plugin add ../../cordova-plugin/cordova-plugin-finder/
+ 1907  cordova plugin add ../../cordova-plugin/cordova-plugin-netstate/
+ 1908  cordova plugin add ../../cordova-plugin/cordova-plugin-netstate
+ 1909  cordova plugin list
+ 1910  cd ..
+ 1911  ls
+ 1912  cd src/app/app-services/
+ 1913  ls
+ 1914  cd finder/
+ 1915  ls
+ 1916  vi finder.service.ts
+ 1917  rm .finder.service.ts.swp 
+ 1918  vi finder.service.ts
+ 1919  ssh 192.168.7.135 -ldevel
+ 1920  ls -la
+ 1921  cd Angular2/
+ 1922  cd CaipiHome
+ 1923  ls -la
+ 1924  cd CaipiHomeA2/
+ 1925  ls -la
+ 1926  cd platforms/
+ 1927  ls -la
+ 1928  cd ios/
+ 1929  ls -la
+ 1930  vi ios.json 
+ 1931  ls -la
+ 1932  cd ../../../
+ 1933  ls -la
+ 1934  cd src/
+ 1935  cd app/
+ 1936  ls -la
+ 1937  vi URLAddresses.type.ts 
+ 1938  cd ../
+ 1939  ls -la
+ 1940  cd ../
+ 1941  ls -la
+ 1942  cd CaipiHomeA2/
+ 1943  cordova platform remove android
+ 1944  ./buildIOS.sh 
+ 1945  mkdir www
+ 1946  ./buildIOS.sh 
+ 1947  cd /FS01/HOMES/ac/
+ 1948  ls -la
+ 1949  history | grep "mount"
+ 1950  sudo mount 192.168.7.23:/FS01/HOMES/ac/ /FS01/HOMES/ac/
+ 1951  ls -la
+ 1952  cd ..
+ 1953  ls -la
+ 1954  cd ac/
+ 1955  ls -la
+ 1956  cd Cameronet/
+ 1957  ls -la
+ 1958  cd CaipiHomeMGW/
+ 1959  ls -la#
+ 1960  ls -la
+ 1961  vi index.html 
+ 1962  vi login.html 
+ 1963  vi index.html 
+ 1964  cd ../../Downloads/idea-IU-163.12024.16/bin/
+ 1965  ./idea.sh 
+ 1966  ssh h2525194.stratoserver.net -lroot
+ 1967  cd Angular2/
+ 1968  cd CaipiHome
+ 1969  ls -la
+ 1970  sudo minicom
+ 1971  ls -la
+ 1972  cd Angular2/CaipiHome
+ 1973  ls -la
+ 1974  cd CaipiHomeA2/
+ 1975  ls -la
+ 1976  ./buildIOS.sh 
+ 1977  cd ..
+ 1978  ng build
+ 1979  cd CaipiHomeA2/
+ 1980  ls -la
+ 1981  ./buildIOS.sh 
+ 1982  cd ../../
+ 1983  ls -la
+ 1984  scp CaipiHome.zip root@h2525194.stratoserver.net:/private-backup/ZIPs/.
+ 1985  cd CaipiHome/CaipiHomeA2/
+ 1986  ls -la
+ 1987  ./buildIOS.sh 
+ 1988  ls -la
+ 1989  cd ..
+ 1990  grep -rni "this.router.navigate"
+ 1991  grep -rni "this.router.navigate" .
+ 1992  cd CaipiHomeA2/
+ 1993  ./buildIOS.sh 
+ 1994  ./buildIOS.sh
+ 1995  history | grep "starto"
+ 1996  history | grep "strato"
+ 1997  cd ../../
+ 1998  ls -la
+ 1999  scp CaipiHome.zip root@h2525194.stratoserver.net:/private-backup/ZIPs/.
+ 2000  history
+ 2001  history > t.txt

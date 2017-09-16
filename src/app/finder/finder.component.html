@@ -1,0 +1,36 @@
+  <!--router-outlet></router-outlet-->
+  <br>
+  <div class="ui container center aligned card">
+    <div class="image">
+      <img [src]="'assets/img/steve.jpg'" width="100">
+    </div>
+    <div class="content">
+      <div class="header">Welcome to CaipiHome</div>
+      <div class="meta">
+        <p> Finder </p>
+      </div>
+      <div class="meta">
+        <p>{{ finderstatus }}</p>
+      </div>
+    </div>
+    <select  class="ui fluid dropdown" (change)="setCentraleMac($event.target.value)">
+      <option [value]="-1" i18n>{{ finderstatus }}</option>
+      <option *ngFor="let dev of devlist; let i = index" [value]="i" i18n>{{ dev.name }}</option>
+    </select>
+  </div>
+
+<!--a [router-link]="['main']">Main</a-->
+<!--div class="content">
+<a class="header" href="#">Welcome to CaipiHome</a>
+    <div class="meta">
+      <p>{{ finderstatus }}</p>
+      <a>Seems that around you are some Control Centers ... please choose one of them</a>
+    </div>
+    <hr/>
+    <div class="ui fluid selection dropdown">
+      <select  class="ui fluid dropdown" (change)="setCentraleMac($event.target.value)">
+        <option [value]="-1" i18n>{{ finderstatus }}</option>
+        <option *ngFor="let dev of devlist; let i = index" [value]="i" i18n>{{ dev.name }}</option>
+      </select>
+    </div>
+</div-->
